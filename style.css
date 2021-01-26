@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(235, 226, 226);
+}
+
+.body-holder{
+    width: 400px;
+    /* height: 500px; */
+    margin: 30px;
+    padding: 10px;
+    background: none;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px  white,
+    inset -8px -8px 8px rgb(184, 178, 178) ;
+}
+.my-images-here{
+    height: 300px;
+    width: 400px;
+    margin: 3px;
+    background: none;
+    border: none;
+    outline: none;
+    align-content: center;
+}
+/* img{
+    width: 300px;
+    height: 280px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    
+} */
+
+.hollow{
+    width: 380px;
+    margin-right: 2px;
+    margin-left: 2px;
+    
+    box-shadow: inset 8px 8px 8px rgb(184, 178, 178),
+                 inset -8px -8px 8px white ;
+}
+.title{
+    color: teal;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.description{
+    max-width: 350px;
+    font-size: 15px;
+    color: teal;
+    padding: 5px;
+    text-align: center;
+}
+.show-more-content{
+    height: 40px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+    position: relative;
+}
+.show-more-content.expand-active{
+    transition: height 0.5s ease-in-out;
+    height: auto;
+}
+.expand-more-holder{
+    padding: 15px;
+    text-align: center;
+}
+.btn-expand-more{
+    cursor: pointer;
+    border: 1px solid white;
+    display: inline-block;
+}
